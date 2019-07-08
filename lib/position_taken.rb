@@ -2,6 +2,6 @@
 def position_taken?(board, index)
   if board[0] == " " || ""
     false
-  else
+  elsif board[0] == "X" || "O"
   end
 end
